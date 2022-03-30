@@ -1,0 +1,11 @@
+.customersContainer {
+  display: flex;
+  cursor: pointer;
+
+  &__username {
+    color: blue;
+  }
+  &__id {
+    margin-left: 10px;
+  }
+}

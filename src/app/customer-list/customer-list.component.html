@@ -1,0 +1,6 @@
+<section *ngFor="let customer of customers">
+  <div class="customersContainer" [routerLink]="['/users', customer.id]">
+    <h1 class="customersContainer__username">{{ customer.username }}</h1>
+    <h1 class="customersContainer__id">{{ customer.id }}</h1>
+  </div>
+</section>
